@@ -19,4 +19,4 @@ predictions = model.predict_classes(x_test[:10])
 tru_val = y_test[:10].reshape(10,)
 for i in range(10):
     print('Prediction:',CLASSES[predictions[i]],'\tActual:',CLASSES[tru_val[i]])
-#############################################################
+############################################################
